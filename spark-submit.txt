@@ -1,0 +1,3 @@
+$ cd /home/cloudera/IdeaProjects/structure_streaming_101/out/artifacts/structure_streaming_101
+
+$ spark-submit --master spark://quickstart.cloudera:7077 --class com.iii.structurestreaming101.StreamingWordCount structure_streaming_101.jar
